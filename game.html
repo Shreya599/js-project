@@ -8,9 +8,9 @@
 <body>
     <button onclick="guessnum()">Guess Number</button>
     <script>
-        let usernum = a;
+        let usernum = 2;
        function guessnum(){
-            let guessNumber = prompt("Enter the number");
+            let guessNumber = parseInt(prompt("Enter the number"));
             while(guessNumber != usernum){
                 prompt("Enter the number");
             }
